@@ -93,6 +93,7 @@ main .button a{
 /* terza sezione */
 #contact-me{
   text-align: left;
+  padding: 20px 0;
 }
 
 #contact-me .row{
@@ -106,4 +107,32 @@ main .button a{
 #contact-me .button{
   background-color: #0dcaca;
   border: 0;
+}
+
+/* footer */
+
+footer{
+  background-color: #1c5db1;
+  text-align: center;
+  color: #fff;
+}
+
+/* debug */
+footer [class*="col-"]{
+  background-color: orange;
+  height: 150px;
+  border: solid 1px ;
+}
+
+footer section{
+  padding: 10px 0;
+}
+
+#sezione-copyright{
+  background-color: #103768;
+  height: 100px;
+}
+
+#sezione-copyright h5{
+  line-height: 70px;
 }
