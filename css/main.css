@@ -8,10 +8,9 @@
 .button{
   display: inline-block;
   border: solid 1px;
-  padding: 3px;
+  padding: 10px;
   border-radius: 5%;
 }
-
 
 /* header */
 header nav{
@@ -51,6 +50,7 @@ header section i{
 
 /* MAIN */
 
+/* prima sezione */
 main{
   text-align: center;
 }
@@ -67,6 +67,7 @@ main section i{
   height: 20px;
 }
 
+/* seconda sezione */
 #tabella-portfolio [class*="col-"]{
   background-color: orange;
   height: 40px;
@@ -87,4 +88,22 @@ main section i{
 
 main .button a{
   color: #fff;
+}
+
+/* terza sezione */
+#contact-me{
+  text-align: left;
+}
+
+#contact-me .row{
+  text-align: center;
+}
+
+#contact-me ul{
+  list-style: none;
+}
+
+#contact-me .button{
+  background-color: #0dcaca;
+  border: 0;
 }
