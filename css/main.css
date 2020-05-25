@@ -1,0 +1,40 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header nav{
+  background-color: #13135e;
+  color: white;
+}
+
+header nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 5%;
+  line-height: 55px;
+}
+
+header section{
+  color: #fff;
+  text-align: center;
+  height: 200px;
+  background-color: #0dcaca;
+}
+
+header section span{
+  display: block;
+  border-bottom: solid 2px white;
+  padding-top: 10px;
+}
+
+header section i{
+  height: 20px;
+}
