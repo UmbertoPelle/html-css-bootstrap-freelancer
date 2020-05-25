@@ -22,11 +22,13 @@ nav li {
   line-height: 55px;
 }
 
+/* sezione header */
 header section{
   color: #fff;
   text-align: center;
-  height: 200px;
   background-color: #0dcaca;
+  /* degub */
+  height: 200px;
 }
 
 header section span{
@@ -37,4 +39,37 @@ header section span{
 
 header section i{
   height: 20px;
+}
+
+/* MAIN */
+
+main{
+  text-align: center;
+}
+
+main section span{
+  display: block;
+  border-bottom: solid 2px;
+  padding-top: 10px;
+}
+
+main section i{
+  height: 20px;
+}
+
+#tabella-portfolio [class*="col-"]{
+  background-color: orange;
+  height: 40px;
+  border: solid 1px ;
+}
+
+#sezione-about{
+  background-color:  #0dcaca;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+#sezione-about .col-xs-12{
+  margin-bottom: 15px;
 }
