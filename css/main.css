@@ -14,7 +14,7 @@
 
 /* header */
 header nav{
-  background-color: #13135e;
+  background-color: #2c3e50 ;
   color: white;
 }
 
@@ -29,11 +29,11 @@ nav li {
   line-height: 55px;
 }
 
-/* sezione header */
+/* sezione  */
 header section{
   color: #fff;
   text-align: center;
-  background-color: #0dcaca;
+  background-color: #1abc9c ;
 }
 
 header section span{
@@ -46,6 +46,10 @@ header section span{
 
 header section i{
   height: 20px;
+}
+
+header .img-header img{
+  width: 20%;
 }
 
 /* MAIN */
@@ -81,7 +85,7 @@ main section i{
 /* seconda sezione */
 
 #sezione-about{
-  background-color:  #0dcaca;
+  background-color:  #1abc9c;
   text-align: center;
   color: white;
   margin-top: 20px;
@@ -118,24 +122,40 @@ main .button a{
 /* footer */
 
 footer{
-  background-color: #1c5db1;
+  background-color:#2c3e50;
   text-align: center;
   color: #fff;
-}
-
-/* debug */
-footer [class*="col-"]{
-  background-color: orange;
-  height: 150px;
-  border: solid 1px ;
 }
 
 footer section{
   padding: 10px 0;
 }
 
+footer h4 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+footer p{
+  font-size: 20px;
+}
+
+.social-icon{
+  font-size: 25px;
+  margin-left: 5%;
+  border: solid 1px;
+  border-radius: 50%;
+  padding: 2%;
+  color: #fff;
+}
+
+.social-icon:hover{
+  background-color: #fff;
+  color: #000;
+}
+
 #sezione-copyright{
-  background-color: #103768;
+  background-color: #1a252f;
   height: 100px;
 }
 
