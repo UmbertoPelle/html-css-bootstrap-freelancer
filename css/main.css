@@ -23,6 +23,10 @@ header nav a{
   color: white;
 }
 
+header ul{
+  text-align: right;
+}
+
 nav li {
   display: inline-block;
   margin-right: 5%;
