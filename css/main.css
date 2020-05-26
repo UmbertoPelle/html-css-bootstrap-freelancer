@@ -103,8 +103,17 @@ main section i{
   margin-bottom: 15px;
 }
 
-main .button a{
+#sezione-about .button a{
   color: #fff;
+}
+
+#sezione-about .button:hover{
+  background-color: #fff;
+}
+
+#sezione-about .button a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 /* terza sezione */
