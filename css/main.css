@@ -103,20 +103,25 @@ main .button a{
 /* terza sezione */
 #contact-me{
   text-align: left;
-  padding: 20px 0;
+  padding-bottom: 30px;
 }
 
 #contact-me .row{
   text-align: center;
 }
 
-#contact-me ul{
-  list-style: none;
+#contact-me .form-control{
+  border: 0;
+  border-bottom: solid 1px grey;
+  box-shadow: none;
 }
 
-#contact-me .button{
-  background-color: #0dcaca;
-  border: 0;
+#contact-me button {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 2%;
+  font-size: 20px;
+  border-radius: 7px;
 }
 
 /* footer */
