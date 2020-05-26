@@ -67,12 +67,18 @@ main section i{
   height: 20px;
 }
 
-/* seconda sezione */
-#tabella-portfolio [class*="col-"]{
-  background-color: orange;
-  height: 40px;
-  border: solid 1px ;
+.img-portfolio{
+  width: 90%;
+  height: 90%;
+  margin: 5% 5%;
 }
+
+.img-portfolio img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* seconda sezione */
 
 #sezione-about{
   background-color:  #0dcaca;
