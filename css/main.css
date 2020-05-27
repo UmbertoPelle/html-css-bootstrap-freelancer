@@ -158,6 +158,9 @@ main section i{
   border-radius: 7px;
 }
 
+#contact-me .form-control::placeholder{
+  color: #000;
+}
 /* footer */
 
 footer{
