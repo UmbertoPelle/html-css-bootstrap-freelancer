@@ -125,13 +125,12 @@ main section i{
   color: #fff;
 }
 
-#sezione-about .button:hover{
+#sezione-about .button:hover,
+#sezione-about .button a:hover{
   background-color: #fff;
-}
-
-#sezione-about .button a:hover {
   color: #000;
   text-decoration: none;
+  border: 0;
 }
 
 /* terza sezione */
